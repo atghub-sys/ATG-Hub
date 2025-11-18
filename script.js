@@ -1,7 +1,7 @@
 // Configuration
 const CONFIG = {
     PARTICLE_COUNT: 30, // Reduced from 50 for better performance
-    ANIMATION_DURATION: 800,
+    ANIMATION_DURATION: 2000, // Increased from 800ms to 2000ms for longer loading
     SCROLL_OFFSET: 80
 };
 
