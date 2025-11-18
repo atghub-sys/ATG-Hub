@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ATG Hub - Your ultimate destination for premium game scripts. Browse 10,000+ verified scripts updated daily.">
+    <meta name="keywords" content="game scripts, roblox scripts, premium scripts, atg hub">
+    <meta property="og:title" content="ATG Hub - Premium Scripts Collection">
+    <meta property="og:description" content="Browse 10,000+ verified game scripts updated daily">
+    <meta property="og:image" content="https://img5.pic.in.th/file/secure-sv1/ChatGPT-Image-9-..-2568-00_55_34.png">
+    <title>ATG Hub - Premium Scripts Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen" role="status" aria-label="Loading">
+        <div class="loader">
+            <img src="https://img5.pic.in.th/file/secure-sv1/ChatGPT-Image-9-..-2568-00_55_34.png" alt="ATG Hub Logo" class="loader-logo">
+            <div class="loader-ring" aria-hidden="true"></div>
+            <div class="loader-text">ATG HUB</div>
+            <div class="loader-subtext">Loading Premium Scripts...</div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="ATG Hub Home">
+                <img src="https://img5.pic.in.th/file/secure-sv1/ChatGPT-Image-9-..-2568-00_55_34.png" alt="ATG Hub" class="logo-image">
+                <span class="logo-text">ATG Hub</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-lang-en="Home" data-lang-th="หน้าหลัก">Home</a>
+                <a href="#features" class="nav-link" data-lang-en="Features" data-lang-th="ฟีเจอร์">Features</a>
+                <a href="#howto" class="nav-link" data-lang-en="How to Use" data-lang-th="วิธีใช้">How to Use</a>
+                <a href="#faq" class="nav-link" data-lang-en="FAQ" data-lang-th="คำถาม">FAQ</a>
+                <a href="scripts.html" class="btn-primary nav-btn" data-lang-en="Get Scripts" data-lang-th="รับสคริปต์">Get Scripts</a>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn" data-lang="th" aria-label="Switch to Thai">TH</button>
+                </div>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-logo-container">
+                <img src="https://img5.pic.in.th/file/secure-sv1/ChatGPT-Image-9-..-2568-00_55_34.png" alt="ATG Hub Premium Logo" class="hero-logo">
+            </div>
+            <div class="hero-badge">
+                <span class="badge-pulse" aria-hidden="true"></span>
+                <span>Updated Daily - Fresh Scripts</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-gradient">ATG Hub</span>
+                <br>
+                <span class="title-sub">Premium Scripts Collection</span>
+            </h1>
+            <p class="hero-description">
+                Discover thousands of high-quality scripts for every game and purpose,
+                <br>curated by the community, updated daily, and completely free.
+            </p>
+            <div class="hero-buttons">
+                <a href="scripts.html" class="btn-primary btn-large">
+                    <span class="btn-icon" aria-hidden="true">📜</span>
+                    Browse Scripts
+                </a>
+                <a href="#discord" class="btn-secondary btn-large">
+                    <span class="btn-icon" aria-hidden="true">💬</span>
+                    Join Discord
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="81409">0</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">13+</div>
+                    <div class="stat-label">Games Supported</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500K+</div>
+                    <div class="stat-label">Scripts Served</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+            <div class="floating-card">
+                <div class="card-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-description">Everything you need in one package</p>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Vast Library</h3>
+                    <p class="feature-description">Access over 10,000 scripts for popular games. From simple tools to advanced automation.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Verified Scripts</h3>
+                    <p class="feature-description">All scripts are tested and verified by our community. Safe and reliable scripts only.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2v20M2 12h20" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="9" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Daily Updates</h3>
+                    <p class="feature-description">New scripts added daily. Stay updated with the latest features and game support.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke-width="2"/>
+                            <path d="M9 9l6 6M15 9l-6 6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Easy to Find</h3>
+                    <p class="feature-description">Search and filter scripts by game, category, or popularity. Find what you need instantly.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">One-Click Copy</h3>
+                    <p class="feature-description">Copy scripts with a single click. Quick and easy access to all your favorite scripts.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Active Community</h3>
+                    <p class="feature-description">Join 50,000+ members in our Discord. Share scripts, get help, and connect with others.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="howto" id="howto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Use</h2>
+                <p class="section-description">Get started in 3 simple steps</p>
+            </div>
+            <div class="steps-container">
+                <article class="step-item">
+                    <div class="step-number" aria-hidden="true">01</div>
+                    <div class="step-content">
+                        <div class="step-icon" aria-hidden="true">🔍</div>
+                        <h3 class="step-title">Browse Scripts</h3>
+                        <p class="step-description">Explore our vast collection of scripts organized by game, category, and popularity.</p>
+                    </div>
+                    <div class="step-line" aria-hidden="true"></div>
+                </article>
+
+                <article class="step-item">
+                    <div class="step-number" aria-hidden="true">02</div>
+                    <div class="step-content">
+                        <div class="step-icon" aria-hidden="true">📋</div>
+                        <h3 class="step-title">Copy Script</h3>
+                        <p class="step-description">Click the copy button to instantly copy any script to your clipboard with one click.</p>
+                    </div>
+                    <div class="step-line" aria-hidden="true"></div>
+                </article>
+
+                <article class="step-item">
+                    <div class="step-number" aria-hidden="true">03</div>
+                    <div class="step-content">
+                        <div class="step-icon" aria-hidden="true">🚀</div>
+                        <h3 class="step-title">Use & Enjoy</h3>
+                        <p class="step-description">Paste the script into your executor and enjoy. Join Discord for help and more!</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Everything you need to know</p>
+            </div>
+            <div class="faq-container">
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Are the scripts safe to use?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All scripts in our hub are community-verified and tested. However, always use scripts at your own risk and ensure you trust the source before executing.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is ATG Hub free?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! ATG Hub is completely free. Browse, copy, and use unlimited scripts without any registration or payment required.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How often are new scripts added?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We add new scripts daily! Our community constantly contributes fresh content, and we update the hub multiple times per day with the latest scripts.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What games are supported?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We support over 13+ popular games with thousands of scripts. Check our Discord or browse the hub to see if your favorite game is supported.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Section -->
+    <section class="discord" id="discord">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Community</h2>
+                <p class="section-description">Connect with 10,000+ members on Discord</p>
+            </div>
+            <div class="discord-container">
+                <div class="discord-content">
+                    <h3 class="discord-title">Why Join Our Discord?</h3>
+                    <div class="discord-features">
+                        <article class="discord-feature">
+                            <span class="discord-icon" aria-hidden="true">💬</span>
+                            <div>
+                                <h4>Active Community</h4>
+                                <p>Chat with thousands of script enthusiasts</p>
+                            </div>
+                        </article>
+                        <article class="discord-feature">
+                            <span class="discord-icon" aria-hidden="true">🎁</span>
+                            <div>
+                                <h4>Exclusive Scripts</h4>
+                                <p>Get early access to premium scripts</p>
+                            </div>
+                        </article>
+                        <article class="discord-feature">
+                            <span class="discord-icon" aria-hidden="true">🛠️</span>
+                            <div>
+                                <h4>Support & Help</h4>
+                                <p>24/7 community support for all your questions</p>
+                            </div>
+                        </article>
+                        <article class="discord-feature">
+                            <span class="discord-icon" aria-hidden="true">📢</span>
+                            <div>
+                                <h4>Latest Updates</h4>
+                                <p>Be the first to know about new scripts</p>
+                            </div>
+                        </article>
+                    </div>
+                    <a href="https://discord.gg/atghub" class="btn-primary btn-large btn-glow" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon" aria-hidden="true">💬</span>
+                        Join Discord Server
+                    </a>
+                </div>
+                <div class="discord-widget">
+                    <iframe src="https://discord.com/widget?id=1422391483431915570&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" title="Discord Server Widget" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://img5.pic.in.th/file/secure-sv1/ChatGPT-Image-9-..-2568-00_55_34.png" alt="ATG Hub" class="logo-image">
+                        <span class="logo-text">ATG Hub</span>
+                    </div>
+                    <p class="footer-tagline">Your ultimate destination for premium game scripts.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Hub</h4>
+                        <a href="#features">Features</a>
+                        <a href="#howto">How to Use</a>
+                        <a href="scripts.html">Browse Scripts</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <a href="https://discord.gg/atghub" target="_blank" rel="noopener noreferrer">Discord</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="Forums">Forums</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Report Bug</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATG Hub. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="https://discord.gg/atghub" class="social-link" aria-label="Discord" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
