@@ -60,6 +60,8 @@ html {
     width: 100%;
     height: 100%;
     background: radial-gradient(ellipse at center, rgba(6, 182, 212, 0.1), var(--primary-bg));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
     justify-content: center;
